@@ -101,13 +101,15 @@ python -m main search SBER --period day --max 10
 
 **Длинные сообщения** автоматически разбиваются на части (лимит Telegram — 4096 символов).
 
-![СБЕР](screenshots/SBER/Sber-begin.jpg)
+![SBER](screenshots/SBER/Sber-begin.jpg)
 ![SBER](screenshots/SBER/Sber-week_1.jpg)
 ![SBER](screenshots/SBER/Sber-week_2.jpg)
 ![SBER](screenshots/SBER/Sber-week_3.jpg)
-![СБЕР](screenshots/SBER/Sber-rep_md_1.jpg)
-![СБЕР](screenshots/SBER/Sber-rep_md_2.jpg)
-![СБЕР](screenshots/SBER/Sber-rep_md_3.jpg)
+![SBER](screenshots/SBER/Sber-rep_md_1.jpg)
+![SBER](screenshots/SBER/Sber-rep_md_2.jpg)
+![SBER](screenshots/SBER/Sber-rep_md_3.jpg)
+
+Также в папке "Screenshots" дополнительно присутствует результат работы бота по NVIDIA.
 
 
 ## Структура проекта
