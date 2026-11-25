@@ -1,0 +1,12 @@
+{
+  "SBER": ["сбер", "сбербанк", "sberbank"],
+  "GAZP": ["газпром", "gazprom"],
+  "LKOH": ["лукойл", "lukoil"],
+  "YNDX": ["яндекс", "yandex"],
+  "VKCO": ["вк", "vk", "vkontakte"],
+  "AAPL": ["apple", "эппл"],
+  "GOOGL": ["google", "гугл", "alphabet"],
+  "TSLA": ["tesla", "тесла"],
+  "NVDA": ["nvidia", "энвидия"],
+  "MSFT": ["microsoft", "майкрософт"]
+}

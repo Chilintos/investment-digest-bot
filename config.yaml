@@ -1,0 +1,34 @@
+# Investment Digest Bot — конфигурация
+# Никогда не коммить секреты! api_id и api_hash только в .env
+
+channels:
+  - name: "Иностранные акции"
+    username: "usstocksnews"
+  - name: "Stock News"
+    username: "stock_news"
+  - name: "КИТ Финанс Брокер"
+    username: "KIT_finance_broker"
+  - name: "MMI"
+    username: "russianmacro"
+  - name: "Кабинет инвестора"
+    username: "investingcorp"
+
+# Периоды для выбора пользователем
+periods:
+  day: 1
+  week: 7
+  month: 30
+  quarter: 90
+  half_year: 180
+  year: 365
+
+# Настройки сбора
+fetch:
+  limit_per_channel: 1000  # макс. сообщений на канал за один запуск
+  batch_size: 100          # размер батча для итерации
+
+# Пути к данным
+paths:
+  data_dir: "data"
+  messages_csv: "data/messages.csv"
+  aliases_json: "config/aliases.json"

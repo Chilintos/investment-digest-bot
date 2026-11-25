@@ -1,0 +1,46 @@
+# Секреты — НИКОГДА НЕ КОММИТИТЬ
+.env
+.env.local
+*.env
+
+# Сессии Telethon
+*.session
+*.session-journal
+
+# Данные
+data/*.csv
+data/*.db
+data/*.sqlite
+
+# Отчёты (генерируются ботом)
+Reports/*.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# Временные файлы
+tmp/
+*.tmp
+
+# Профиль (отдельный файл)
+PROFILE_README.md
