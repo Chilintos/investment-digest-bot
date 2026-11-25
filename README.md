@@ -101,7 +101,7 @@ python -m main search SBER --period day --max 10
 
 **Длинные сообщения** автоматически разбиваются на части (лимит Telegram — 4096 символов).
 
-![СБЕР](screenshots/SBER/Sber-начало_работы.jpg)
+![СБЕР](screenshots/SBER/Sber-begin.jpg)
 ![SBER](screenshots/SBER/Sber-сбор_неделя_1.jpg)
 ![SBER](screenshots/SBER/Sber-сбор_неделя_2.jpg)
 ![SBER](screenshots/SBER/Sber-сбор_неделя_3.jpg)
